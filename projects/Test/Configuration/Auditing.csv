@@ -1,0 +1,6 @@
+﻿#GPS;on
+#LogSync;on
+#LogAppState;off
+#TrackGpsChanges;on;600;500
+account;create
+contact;create

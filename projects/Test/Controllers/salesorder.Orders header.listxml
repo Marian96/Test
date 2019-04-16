@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Attributes>
+    <EntityName>salesorder</EntityName>
+    <CamelCase>SalesOrder</CamelCase>
+    <VisualStudioProjectId>00000000-0000-0000-0000-000000000000</VisualStudioProjectId>
+    <ClassBinding />
+  </Attributes>
+  <ComponentId>00000000-0000-0000-0000-000000000000</ComponentId>
+  <Name>Orders header</Name>
+  <Kind>List</Kind>
+  <IsDefault>false</IsDefault>
+  <AutoWideWidth>0</AutoWideWidth>
+  <AutoHeader>0</AutoHeader>
+  <MaxColumns>0</MaxColumns>
+  <OrderBy>name</OrderBy>
+  <SerializedBindings>
+    <string>shipto_city</string>
+    <string>shipto_country</string>
+    <string>createdon</string>
+    <string>transactioncurrencyid</string>
+    <string>customerid</string>
+    <string>discountamount</string>
+    <string>discountpercentage</string>
+    <string>freightamount</string>
+    <string>freighttermscode</string>
+    <string>id</string>
+    <string>modifiedon</string>
+    <string>name</string>
+    <string>opportunityid</string>
+    <string>ownerid</string>
+    <string>shipto_postalcode</string>
+    <string>pricelevelid</string>
+    <string>quoteid</string>
+    <string>shipto_stateorprovince</string>
+    <string>statecode</string>
+    <string>statuscode</string>
+    <string>shipto_line1</string>
+    <string>shipto_line2</string>
+    <string>shipto_line3</string>
+    <string>totalamount</string>
+  </SerializedBindings>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>240</DesignWidth>
+      <DesignHeight>40</DesignHeight>
+      <Name>Default</Name>
+      <Width>240</Width>
+      <Height>40</Height>
+      <SerializedBackground>0</SerializedBackground>
+      <SerializedSelectedBackground>0</SerializedSelectedBackground>
+      <SerializedChildren>
+        <CellTemplate SchemaName="name">
+          <IsConstant>false</IsConstant>
+          <StyleName>primary</StyleName>
+          <Bounds>118,3,118,24</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="Amount">
+          <IsConstant>false</IsConstant>
+          <StyleName>primary</StyleName>
+          <Bounds>0,3,105,24</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <TemplateSelectorRule>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Workflow e="true" isvalid="true" syntaxVersion="22" version="0"&gt;&lt;function e="false"&gt;&lt;var&gt;Shared.Amount&lt;/var&gt;&lt;arg&gt;Integer:1000&lt;/arg&gt;&lt;arg&gt;var:Entity.totalamount&lt;/arg&gt;&lt;func&gt;Multiplication&lt;/func&gt;&lt;/function&gt;&lt;/Workflow&gt;</TemplateSelectorRule>
+  <CustomProperties>
+    <SerializedClassBinding name="Amount" label="Shared.Amount" type="Decimal" />
+  </CustomProperties>
+  <SharedVariables>&lt;SharedVariables&gt;&lt;Variables&gt;&lt;SharedVariable usage="None"&gt;&lt;Name&gt;Amount&lt;/Name&gt;&lt;CrmType&gt;Decimal&lt;/CrmType&gt;&lt;/SharedVariable&gt;&lt;/Variables&gt;&lt;/SharedVariables&gt;</SharedVariables>
+  <Height>0</Height>
+  <IFrameProvidesDS>false</IFrameProvidesDS>
+</EntityList>

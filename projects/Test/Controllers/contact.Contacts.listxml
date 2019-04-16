@@ -1,0 +1,76 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>contact</EntityName>
+    <VisualStudioProjectId>c0f71827-e4f6-464e-a71d-c36687d5738e</VisualStudioProjectId>
+    <ClassBinding/>
+  </Attributes>
+  <Name>Contacts</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>lastname;jobtitle</OrderBy>
+  <SerializedBindings>
+    <string>address1_latitude</string>
+    <string>address1_longitude</string>
+    <string>telephone1</string>
+    <string>address1_city</string>
+    <string>address1_country</string>
+    <string>createdon</string>
+    <string>parentcustomerid</string>
+    <string>emailaddress1</string>
+    <string>fax</string>
+    <string>firstname</string>
+    <string>name</string>
+    <string>id</string>
+    <string>jobtitle</string>
+    <string>lastname</string>
+    <string>mobilephone</string>
+    <string>modifiedon</string>
+    <string>originatingleadid</string>
+    <string>ownerid</string>
+    <string>address1_postalcode</string>
+    <string>address1_stateorprovince</string>
+    <string>statecode</string>
+    <string>statuscode</string>
+    <string>address1_line1</string>
+    <string>address1_line2</string>
+    <string>address1_line3</string>
+  </SerializedBindings>
+  <HasGpsFields>true</HasGpsFields>
+  <MaxColumns>0</MaxColumns>
+  <Search>
+    <attribute schema="emailaddress1" method="Contains"/>
+    <attribute schema="jobtitle" method="Contains"/>
+    <attribute schema="lastname" method="Contains"/>
+    <attribute schema="address1_city" method="Contains"/>
+  </Search>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>240</DesignWidth>
+      <DesignHeight>40</DesignHeight>
+      <Name>Default</Name>
+      <Width>240</Width>
+      <Height>40</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="lastname">
+          <StyleName>primary</StyleName>
+          <Bounds>0,0,240,20</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="jobtitle">
+          <StyleName>primary</StyleName>
+          <Bounds>0,20,89,20</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="emailaddress1">
+          <StyleName>primary</StyleName>
+          <Bounds>103,20,134,20</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+  <CustomProperties/>
+</EntityList>

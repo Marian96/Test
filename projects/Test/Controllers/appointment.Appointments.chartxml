@@ -1,0 +1,26 @@
+﻿<EntityChart>
+  <Name>Appointments</Name>
+  <Kind>Column</Kind>
+  <LimitCount>3</LimitCount>
+  <Axis>name</Axis>
+  <MinValue>
+    <Color>#FF0000FF</Color>
+  </MinValue>
+  <MaxValue>
+    <Color>#FF0000FF</Color>
+  </MaxValue>
+  <TargetValue>
+    <Color>#FF0000FF</Color>
+  </TargetValue>
+  <SerializedBindings/>
+  <Attributes>
+    <EntityName>appointment</EntityName>
+    <CamelCase>appointment</CamelCase>
+  </Attributes>
+  <Series>
+    <Series>
+      <Attribute>createdon</Attribute>
+      <Color>#FF0000FF</Color>
+    </Series>
+  </Series>
+</EntityChart>

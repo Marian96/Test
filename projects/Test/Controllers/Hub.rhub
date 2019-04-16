@@ -1,0 +1,9 @@
+﻿<HubDefinition>
+  <Group name="Customers">
+    <View name="Collection">
+      <EntityView entity="account" view="Accounts" sort="name"/>
+    </View>
+  </Group>
+  <Item entity="account" property="undefined" parent="true"/>
+  <Item entity="contact" property="undefined" parent="true"/>
+</HubDefinition>
